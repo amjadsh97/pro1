@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#F5DBDB">
+
+        <TextView
+            android:id="@+id/digte"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:inputType="text"
+            android:paddingLeft="5dp"
+            android:hint="   "
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/inside_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:inputType="text"
+            android:layout_marginLeft="3sp"
+
+            android:paddingLeft="10sp"
+            android:hint="name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/inside_Quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:layout_marginLeft="25sp"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:hint="Quan"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/inside_price"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25sp"
+
+            android:inputType="text"
+            android:paddingLeft="15sp"
+            android:hint="Price"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/inside_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:inputType="text"
+            android:layout_marginLeft="25dp"
+
+            android:paddingLeft="5sp"
+            android:hint="Cost"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

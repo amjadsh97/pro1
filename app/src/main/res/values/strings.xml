@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">view</string>
+    <string name="name_item" />
+    <string name="title_activity_outside__expense">Outside_Expense</string>
+    <string name="net_profit">Net profit</string>
+    <string name="cancel">Cancel</string>
+</resources>

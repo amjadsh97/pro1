@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Outside_Expense">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="#CED7F1"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:text="#"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:layout_marginLeft="10sp"
+                android:paddingLeft="10sp"
+                android:text="name"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:paddingLeft="10sp"
+                android:text="Quan"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:paddingLeft="10sp"
+                android:text="Price"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:layout_marginLeft="40dp"
+                android:paddingLeft="10dp"
+                android:text="Cost"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/outside_recy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_weight="0"
+            android:background="#CED7F1">
+
+            <TextView
+                android:id="@+id/outside_Total"
+                android:layout_width="109dp"
+                android:layout_height="30dp"
+                android:inputType="text"
+                android:paddingLeft="15sp"
+                android:text="Total"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/OTotal_Quantity"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:hint="Quan"
+                android:inputType="number"
+                android:paddingLeft="15sp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/OTotal_cost"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:hint="Cost"
+                android:inputType="number"
+                android:paddingLeft="10sp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

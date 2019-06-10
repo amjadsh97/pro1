@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/list"
+          android:title="Add a new list"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/group"
+        android:title="Add a new group"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/Deleting"
+        android:title="Delete a list or group"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/Expense"
+        android:title="Expense Summary"
+        app:showAsAction="never">
+        <menu>
+
+            <item android:id="@+id/inside"
+                android:title="inside Expense"
+                app:showAsAction="never"/>
+            <item android:id="@+id/Outside"
+                android:title="Outside Expense"
+                app:showAsAction="never"/>
+            <item android:id="@+id/Profit"
+                android:title="Net profit"
+                app:showAsAction="never"/>
+
+        </menu>
+
+
+    </item>
+
+    <item android:id="@+id/consumed"
+        android:title="Most consumed"
+        app:showAsAction="never"/>
+</menu>
